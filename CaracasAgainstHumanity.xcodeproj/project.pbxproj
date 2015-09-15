@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A9386CED1BA7F8E300C13ABE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9386CEC1BA7F8E300C13ABE /* AppDelegate.swift */; };
-		A9386CEF1BA7F8E300C13ABE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9386CEE1BA7F8E300C13ABE /* ViewController.swift */; };
+		A9386CEF1BA7F8E300C13ABE /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9386CEE1BA7F8E300C13ABE /* CardViewController.swift */; };
 		A9386CF21BA7F8E300C13ABE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9386CF01BA7F8E300C13ABE /* Main.storyboard */; };
 		A9386CF41BA7F8E300C13ABE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9386CF31BA7F8E300C13ABE /* Images.xcassets */; };
 		A9386CF71BA7F8E300C13ABE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9386CF51BA7F8E300C13ABE /* LaunchScreen.xib */; };
@@ -29,7 +29,7 @@
 		A9386CE71BA7F8E300C13ABE /* CaracasAgainstHumanity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaracasAgainstHumanity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9386CEB1BA7F8E300C13ABE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9386CEC1BA7F8E300C13ABE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A9386CEE1BA7F8E300C13ABE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A9386CEE1BA7F8E300C13ABE /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
 		A9386CF11BA7F8E300C13ABE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A9386CF31BA7F8E300C13ABE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A9386CF61BA7F8E300C13ABE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -78,7 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				A9386CEC1BA7F8E300C13ABE /* AppDelegate.swift */,
-				A9386CEE1BA7F8E300C13ABE /* ViewController.swift */,
+				A9386CEE1BA7F8E300C13ABE /* CardViewController.swift */,
 				A9386CF01BA7F8E300C13ABE /* Main.storyboard */,
 				A9386CF31BA7F8E300C13ABE /* Images.xcassets */,
 				A9386CF51BA7F8E300C13ABE /* LaunchScreen.xib */,
@@ -212,7 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9386CEF1BA7F8E300C13ABE /* ViewController.swift in Sources */,
+				A9386CEF1BA7F8E300C13ABE /* CardViewController.swift in Sources */,
 				A9386CED1BA7F8E300C13ABE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +411,7 @@
 				A9386D081BA7F8E300C13ABE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A9386D091BA7F8E300C13ABE /* Build configuration list for PBXNativeTarget "CaracasAgainstHumanityTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +420,7 @@
 				A9386D0B1BA7F8E300C13ABE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
